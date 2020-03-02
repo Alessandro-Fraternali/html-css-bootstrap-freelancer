@@ -4,18 +4,67 @@
   box-sizing: border-box;
 }
 
-nav, .sezione4 {
-  background-color: #2c3e50;
-  color: white;
+h1, h2, h3, li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase!important;
 }
 
-.jumbotron, .sezione2 {
+li {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  padding-top: 10px;
+  font-size: 48px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.fixed {
+  height: 104px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.divider {
+ border: white 1px solid;
+ width: 200px;
+}
+
+.jumbo {
+  padding-top: 204px;
+}
+
+nav, .sezione4 {
+  color: white;
+  background-color: #2c3e50;
+  position: fixed;
+}
+
+.jumbo, .sezione2 {
   color: white;
   background-color: #1abc9c;
+  text-align: center;
 }
 
 .sezione1, .sezione3 {
   color: #2c3e50;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 footer {
